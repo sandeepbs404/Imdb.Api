@@ -46,6 +46,8 @@ namespace Imdb.BusinessLogic
         public int Id { get; set; }
         public int RoleId { get; set; }
         public int PersonId { get; set; }
+        public Person Person { get; set; }
+        public IList<Role> Roles { get; set; }
     }
 
     public class Crew

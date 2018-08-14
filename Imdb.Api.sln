@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb.DbSetup", "Imdb.DbSetu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb.BusinessLogic", "Imdb.BusinessLogic\Imdb.BusinessLogic.csproj", "{600FA7CB-E464-4E6E-BE20-4FFB88C2058A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb.BusinessLogic.UnitTests", "Imdb.BusinessLogic.UnitTests\Imdb.BusinessLogic.UnitTests.csproj", "{BFF51B1E-D564-42FF-B0FE-A2936833A6A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imdb.DbDeployment", "imdb.DbDeployment\imdb.DbDeployment.csproj", "{EC06158F-28EF-496C-9D07-AA3444B0D624}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{600FA7CB-E464-4E6E-BE20-4FFB88C2058A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600FA7CB-E464-4E6E-BE20-4FFB88C2058A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600FA7CB-E464-4E6E-BE20-4FFB88C2058A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF51B1E-D564-42FF-B0FE-A2936833A6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF51B1E-D564-42FF-B0FE-A2936833A6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF51B1E-D564-42FF-B0FE-A2936833A6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF51B1E-D564-42FF-B0FE-A2936833A6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC06158F-28EF-496C-9D07-AA3444B0D624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC06158F-28EF-496C-9D07-AA3444B0D624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC06158F-28EF-496C-9D07-AA3444B0D624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC06158F-28EF-496C-9D07-AA3444B0D624}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

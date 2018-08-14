@@ -1,8 +1,9 @@
-﻿namespace Imdb.BusinessLogic.ManageCrew
+﻿using Imdb.BusinessLogic.Common;
+
+namespace Imdb.BusinessLogic.ManageCrew
 {
     public class GetCrewQuery
     {
-        public bool AllActors;
-        public bool AllProducers;
+        public RoleEnum? Role;
     }
 }
